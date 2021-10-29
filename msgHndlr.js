@@ -97,6 +97,7 @@ let command = body.slice(1).trim().split(/ +/).shift().toLowerCase()
 *${poy++}.* ${prefix}sc
 *${poy++}.* ${prefix}artinama
 *${poy++}.* ${prefix}artimimpi`
+*${poy++}.* ${prefix}linkgc
  ppimg = await getPP(sender)
 gambar = await getBuffer(ppimg)
 gbutsan = [
