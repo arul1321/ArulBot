@@ -154,7 +154,6 @@ reply('*Presence telah diubah menjadi recording!*')
 	}catch (e) {
 	console.log(String(e))
 		}
-		}
 case "linkgc":
         if (!isGroup) return reply(mess.only.group)
         if (!isGroupAdmins) return reply(mess.only.admin)
@@ -162,3 +161,4 @@ case "linkgc":
         linkgc = await client.groupInviteCode(from)
         reply('https://chat.whatsapp.com/'+linkgc)
         break;
+}
